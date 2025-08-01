@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psicologia | Seu Nome</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Cabeçalho -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Seu Nome</h1>
+      <nav class="space-x-4">
+        <a href="#sobre" class="text-gray-700 hover:text-indigo-600">Sobre</a>
+        <a href="#servicos" class="text-gray-700 hover:text-indigo-600">Serviços</a>
+        <a href="#contato" class="text-gray-700 hover:text-indigo-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-indigo-100 py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Bem-vindo(a) à sua jornada de autoconhecimento</h2>
+    <p class="text-lg">Atendimento psicológico com escuta empática e acolhimento.</p>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-16 px-4 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6">Sobre mim</h3>
+    <p class="text-lg leading-relaxed">
+      Sou psicólogo(a) com formação em [Sua Formação]. Meu foco é proporcionar um espaço seguro para que você possa explorar suas emoções, pensamentos e comportamentos. Atendo adolescentes, adultos e casais de forma presencial e online.
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-white py-16 px-4 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Serviços</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-indigo-50 p-6 rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Terapia Individual</h4>
+        <p>Para adolescentes e adultos lidando com ansiedade, depressão, autoestima e mais.</p>
+      </div>
+      <div class="bg-indigo-50 p-6 rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Terapia de Casal</h4>
+        <p>Fortaleça a comunicação e a conexão no relacionamento com acompanhamento profissional.</p>
+      </div>
+      <div class="bg-indigo-50 p-6 rounded-xl shadow">
+        <h4 class="text-xl font-bold mb-2">Atendimento Online</h4>
+        <p>Flexibilidade e conforto com sessões seguras pela internet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-4 max-w-4xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Contato</h3>
+    <form class="space-y-4">
+      <input type="text" placeholder="Seu nome" class="w-full p-3 border border-gray-300 rounded-lg" />
+      <input type="email" placeholder="Seu e-mail" class="w-full p-3 border border-gray-300 rounded-lg" />
+      <textarea placeholder="Sua mensagem" rows="5" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700">
+        Enviar
+      </button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
+    &copy; 2025 Seu Nome | CRP 000000/00 | Todos os direitos reservados
+  </footer>
+</body>
+</html>
